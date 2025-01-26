@@ -21,18 +21,23 @@ git clone <repository-url>
 cd econ-bot
 ```
 
-2. Create and activate a virtual environment:
+2. Download the economics textbook:
+   - Visit [Principles of Economics LibreTexts](https://socialsci.libretexts.org/Bookshelves/Economics/Principles_of_Economics_(LibreTexts))
+   - Click on "Download Full Book (PDF)" in the left sidebar
+   - Save the file as `principles_of_economics.pdf` in the project root directory
+
+3. Create and activate a virtual environment:
 ```bash
 python -m venv econ_venv
 source econ_venv/bin/activate
 ```
 
-3. Install dependencies:
+4. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Set up OpenAI API key:
+5. Set up OpenAI API key:
 ```bash
 export OPENAI_API_KEY=your_api_key_here
 ```
