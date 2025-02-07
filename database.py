@@ -55,7 +55,7 @@ class VectorDAO:
     """Data Access Object for vector operations using Qdrant and SQLite."""
 
     COLLECTION_NAME = "document_embeddings"
-    VECTOR_SIZE = 1536  # OpenAI embedding dimension
+    VECTOR_SIZE = 3072  # Updated to match the embeddings dimension
     QDRANT_PATH = "./qdrant_data"  # Local persistent storage
 
     def __init__(self):
